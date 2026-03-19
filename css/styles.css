@@ -34,31 +34,37 @@ header {
     z-index: 1000;
 }
 
+/* --- Header : Logo en haut, Navigation en dessous --- */
 .header-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column; /* Aligne les éléments verticalement (empilés) */
+    align-items: center;    /* Centre tout horizontalement */
+    gap: 1.5rem;            /* Espace entre le logo et le menu */
 }
 
 .logo h1 {
     color: var(--primary-color);
-    font-size: 1.8rem;
+    font-size: 3rem;
     font-weight: 600;
+    text-align: center;
 }
 
 .logo p {
     color: var(--accent-color);
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     font-weight: 500;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 2rem;
+    justify-content: center; /* AJOUT : Centre les liens horizontalement */
+    gap: 1.5rem;             /* AJUSTÉ : Un peu moins d'espace pour tenir sur une ligne */
+    flex-wrap: wrap;         /* AJOUT : Permet de passer sur 2 lignes sur petit écran */
 }
 
 nav a {
@@ -68,6 +74,11 @@ nav a {
     transition: color 0.3s ease;
     padding: 0.5rem 1rem;
     border-radius: 4px;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 nav a:hover,
@@ -81,7 +92,7 @@ nav a.active {
     background: linear-gradient(135deg, rgba(44, 95, 141, 0.95), rgba(74, 159, 216, 0.9)), 
                 url('../images/hero.jpg') center/cover;
     color: var(--white);
-    padding: 5rem 2rem;
+    padding: 1rem 2rem;
     text-align: center;
 }
 
