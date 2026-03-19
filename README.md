@@ -26,5 +26,12 @@ Le site est conçu pour être léger, accessible et facile à maintenir.
 Le site est destiné à être hébergé sur [Ton hébergeur actuel ou GitHub Pages].
 Toute modification doit être testée localement avant d'être "pushée" sur la branche `main`.
 
+## 🔧 Maintenance : Ajouter un article
+Pour ajouter un nouvel article dans `articles.html` :
+1. **Copier** le bloc `<article>` et sa `<div class="lightbox">` associée.
+2. **Inverser la classe** : Si l'article précédent a la classe `article-card`, le nouveau doit avoir `article-card reverse` (et inversement).
+3. **ID Unique (Crucial)** : Changer l'ID de la lightbox (ex: `lightbox-3`) dans le lien `href` de l'image ET dans l'ID de la div correspondante.
+4. **Images** : Utiliser de préférence le format `.webp` pour la performance.
+
 ---
 *Dernière mise à jour : 19 Mars 2026*
