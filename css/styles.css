@@ -664,3 +664,64 @@ footer {
     color: var(--secondary-color);
     text-decoration: underline;
 }
+
+
+/* Section Infos Pratiques */
+.infos-pratiques {
+    background-color: #f0f7ff; /* Bleu très léger pour contraster */
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-left: 5px solid var(--secondary-color); /* Rappel de votre couleur bleue */
+}
+
+.infos-pratiques h2 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.intro-text {
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+}
+
+.infos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.info-icon {
+    font-size: 1.5rem;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.info-content h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+.info-content p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: var(--text-dark);
+}
+
+.paiements-acceptes {
+    border-top: 1px solid #d1e3f8;
+    padding-top: 15px;
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
