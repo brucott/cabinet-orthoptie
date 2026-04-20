@@ -633,3 +633,34 @@ footer {
 .article-img a:hover img {
     transform: scale(1.05); /* Zoom discret */
 }
+
+/* --- Alignement de la section Contact du footer --- */
+.contact-item {
+    display: flex;
+    align-items: center; /* Aligne l'icône avec la première ligne de texte */
+    margin-bottom: 2px;
+}
+
+.contact-item .icon {
+    margin-right: 12px;
+    min-width: 25px; /* Espace constant pour toutes les icônes */
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.contact-item .text {
+    line-height: 1.2;
+    flex: 1; /* Le texte prend tout l'espace restant */
+}
+
+/* Style des liens dans le footer pour qu'ils soient cliquables proprement */
+.contact-item a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-item a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
