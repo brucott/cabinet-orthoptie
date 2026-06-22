@@ -1,1 +1,31 @@
-google-site-verification: googled1f48e1230d2a6a0.html
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.orthoptie-genilac.fr/index.html</loc>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.orthoptie-genilac.fr/equipe.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.orthoptie-genilac.fr/pathologies.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.orthoptie-genilac.fr/ConseilsPrevention.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.orthoptie-genilac.fr/tarifs.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.orthoptie-genilac.fr/contact.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.orthoptie-genilac.fr/mentions-legales.html</loc>
+    <priority>0.20</priority>
+  </url>
+</urlset>

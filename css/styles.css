@@ -725,3 +725,18 @@ footer {
     font-size: 0.9rem;
     color: var(--text-light);
 }
+
+/* --- Mode Mobile --- */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-direction: column; /* Empile les liens verticalement */
+        gap: 10px;
+        align-items: center;
+    }
+}
